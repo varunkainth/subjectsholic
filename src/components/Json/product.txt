@@ -1,0 +1,30 @@
+<article className='category'>
+            <span className="category_icon"><i className={Categorgy[0].icon}></i></span>
+            <h5>{Categorgy[0].name}</h5>
+            <p>{Categorgy[0].data}</p>
+          </article>
+          <article className='category'>
+            <span className="category_icon"><i className={Categorgy[1].icon}></i></span>
+            <h5>{Categorgy[1].name}</h5>
+            <p>{Categorgy[1].data}</p>
+          </article>
+          <article className='category'>
+            <span className="category_icon"><i className={Categorgy[2].icon}></i></span>
+            <h5>{Categorgy[2].name}</h5>
+            <p>{Categorgy[2].data}</p>
+          </article>
+          <article className='category'>
+            <span className="category_icon"><i className={Categorgy[3].icon}></i></span>
+            <h5>{Categorgy[3].name}</h5>
+            <p>{Categorgy[3].data}</p>
+          </article>
+          <article className='category'>
+            <span className="category_icon"><i className={Categorgy[4].icon}></i></span>
+            <h5>{Categorgy[4].name}</h5>
+            <p>{Categorgy[4].data}</p>
+          </article>
+          <article className='category'>
+            <span className="category_icon"><i className={Categorgy[5].icon}></i></span>
+            <h5>{Categorgy[5].name}</h5>
+            <p>{Categorgy[5].data}</p>
+          </article>

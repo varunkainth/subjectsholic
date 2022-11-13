@@ -1,0 +1,150 @@
+@import url(./Color-Font.css);
+
+nav , nav:before{
+  content: " ";
+  /* background: linear-gradient(#533483,#3F0071); */
+  background-color: #262626;
+  height: 60px;
+  transition: 0.3s;
+
+  transition-delay: .4s;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0);
+}
+nav.sticky {
+  position: sticky;
+  top: 0;
+  background: #0e1c25;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+.nav-inner {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1350px;
+  width: 100%;
+  /* margin: auto; */
+}
+.nav-outer {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1300px;
+  width: 100%;
+  margin: auto;
+}
+.logo {
+  color: azure;
+  font-size: 30px;
+  /* margin-left: 20px; */
+}
+.links a {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 30px;
+  /* margin-left: 30px; */
+  cursor: pointer;
+}
+
+.links a:hover {
+  border-bottom: 2px solid var(--font-bg);
+}
+
+.links a:first-child {
+  margin-left: 30px;
+}
+.hamburger-react {
+  display: none;
+  cursor: pointer;
+  height: 48px;
+  position: relative;
+  /* right: 10px; */
+  transition: all 0.4s cubic-bezier(0, 0, 0, 1) 0s;
+  user-select: text;
+  width: 48px;
+  outline: none;
+  transform: none;
+  /* float: right; */
+  /* margin-left: 30px; */
+  color: white;
+}
+.links ul {
+  text-decoration: none;
+  display: flex;
+}
+.links ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.links {
+  text-transform: uppercase;
+  position: relative;
+  right: -150px;
+}
+
+.btn.sign_up {
+  padding: 2px 4px;
+  margin-left: 10px;
+  position: relative;
+  right: -50px;
+}
+.btn.login {
+  padding: 3px 6px;
+  position: relative;
+  right: -40px;
+}
+.btn {
+  border: 2px solid var(--font);
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Mukta", sans-serif;
+  color: var(--font);
+  cursor: pointer;
+  background: var(--font-bg);
+}
+.btn:hover {
+  color: var(--font-bg);
+  background: var(--font);
+}
+
+.active a{
+  border-bottom: 2px solid var(--bluelight);
+  /* z-index: 10000; */
+}
+.nav_user_name {
+  position: relative;
+  color: white;
+  font-size: .9rem;
+  top: -15px;
+  right: -242px;
+}
+.nav-img {
+  width: 34px;
+  position: relative;
+  right: -188px;
+  top: 14px;
+  border-radius: 100%;
+}
+.cart {
+  position: relative;
+  right: 119px;
+  color: white;
+  top: 4px;
+  right: -15px;
+  font-size: 1.2em;
+}
+.cart.actived{
+  position: relative;
+  /* right: 119px; */
+  color: white;
+  top: 4px;
+  right: 100px;
+  font-size: 1.2em;
+}
+.cart a{
+  color: white;
+}

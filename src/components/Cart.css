@@ -1,0 +1,110 @@
+.cart_items {
+  margin: 0px auto;
+  width: 100%;
+  /* overflow: hidden; */
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.cart_items_header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.3rem;
+  height: 50px;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.cart_items_empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cart_items_image {
+  border-radius: 100%;
+  width: 100px;
+  height: auto;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+.cart_items_list {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 5%;
+}
+.cart_items_name,
+.cart_items_function {
+  width: 25%;
+}
+.cart_items_add,
+.cart_items_remove {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.cart_items_add {
+  background-color: red;
+}
+.cart_items_remove {
+  background-color: green;
+}
+.cart_items_add:active {
+  transform: translateY(1.2px);
+}
+.cart_items_remove:active {
+  transform: translateY(1.2px);
+}
+.cart_items_price_name {
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid black;
+}
+.cart_items_total_price {
+  display: flex;
+  position: fixed;
+  padding-left: 45%;
+}
+.checkout {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -742px;
+}
+.checkoutbtn {
+  padding: 7px;
+  background: darkorange;
+  border: 2px solid black;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.checkoutbtn:hover{
+  background-color: black;
+  color: orange;
+}
+.checkoutbtn:active{
+  transform: translateY(2px);
+}

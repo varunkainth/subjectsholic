@@ -1,0 +1,10 @@
+:root{
+    --black: #0E1C25;
+    --bluelight: #61c6e2;
+    --gray: #716e77;
+    --black26: #262626;
+    --font: #f7f7f9;
+    --font-bg: #f9bd24;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap');
