@@ -9,7 +9,8 @@ const Courses = [
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     redirect:"/cpp",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+      {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
     
   },
   {
@@ -22,7 +23,8 @@ const Courses = [
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     redirect:"/python",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 3,
@@ -34,7 +36,8 @@ const Courses = [
     redirect:"/java",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 4,
@@ -46,7 +49,8 @@ const Courses = [
     redirect:"/js",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 5,
@@ -58,7 +62,8 @@ const Courses = [
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     redirect:"/sql",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 6,
@@ -70,7 +75,8 @@ const Courses = [
     redirect:"/html",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 7,
@@ -82,7 +88,8 @@ const Courses = [
     redirect:"/go",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
   {
     id: 8,
@@ -94,7 +101,8 @@ const Courses = [
     redirect:"/ds",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },{
     id: 9,
     course_name: "React",
@@ -105,7 +113,8 @@ const Courses = [
     redirect:"/react",
     top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
     Image:
-      {img1:"../../assets/Images/contact.jpg"}
+    {img1:"../../../src/assets/Images/contact.jpg"},
+      Author:"Varsha",
   },
 ];
 

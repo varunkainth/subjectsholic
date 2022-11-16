@@ -12,8 +12,8 @@ const Course = () => {
     setmore(false);
   };
   const navigate = useNavigate();
-  const coursenavigate = () =>{
-    navigate('/course/python')
+  const coursenavigate = () => {
+    navigate("/course/python");
   };
 
   return (
@@ -26,7 +26,7 @@ const Course = () => {
                 <div className="img_main">
                   <img
                     className="hello"
-                    src="../../src/assets/Images/contact.jpg"
+                    src={data.Image.img1}
                     alt=""
                   />
                 </div>
@@ -51,10 +51,21 @@ const Course = () => {
                   </span>
                 </p>
                 <div className="btndiv">
-                  <button onClick={coursenavigate} className=" buy">Go to Course</button>
+                  <button  className=" buy">
+                    Go to Course
+                  </button>
                 </div>
 
-            
+                <div className="star_rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <div className="author">
+                  <b>Author:</b>{data.Author}
+                </div>
               </article>
             </>
           );
