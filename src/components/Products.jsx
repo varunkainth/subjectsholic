@@ -22,7 +22,10 @@ const About = ({handleAddProduct}) => {
                 </div>
                 
                 <div  className="product_price">
-                  <span>{curentproduct.currency}</span>{curentproduct.price}
+                  
+                  
+                  <span className="strike">{curentproduct.currency}</span><span className="strike">{curentproduct.mrp}</span>
+                  &emsp;<span>{curentproduct.currency}</span>{curentproduct.price}
                 </div>
                 <div>
                   <button className="product_add_btn" onClick={()=>handleAddProduct(curentproduct)}>Add To Cart</button>

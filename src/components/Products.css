@@ -8,6 +8,9 @@
   background-color: orange;
   border-radius: 5px;
 }
+.strike{
+  text-decoration: line-through;
+}
 .card{
   width: 300px;
   height: 400px;

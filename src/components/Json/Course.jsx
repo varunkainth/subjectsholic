@@ -6,12 +6,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "c++",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    redirect:"/cpp",
-    Image:
-      {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
-    
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    redirect: "cpp",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "cpp",
   },
   {
     id: 2,
@@ -20,11 +20,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "Python",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    redirect:"/python",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    redirect: "python",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "python",
   },
   {
     id: 3,
@@ -33,11 +34,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "java",
-    redirect:"/java",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    redirect: "java",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "java",
   },
   {
     id: 4,
@@ -46,11 +48,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "javscript",
-    redirect:"/js",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    redirect: "js",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "js",
   },
   {
     id: 5,
@@ -59,11 +62,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "sql",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    redirect:"/sql",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    redirect: "sql",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "sql",
   },
   {
     id: 6,
@@ -72,11 +76,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "Html",
-    redirect:"/html",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    redirect: "html",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "html",
   },
   {
     id: 7,
@@ -85,11 +90,12 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "Go",
-    redirect:"/go",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    redirect: "go",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "go",
   },
   {
     id: 8,
@@ -98,23 +104,26 @@ const Courses = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "DS",
-    redirect:"/ds",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
-  },{
+    redirect: "ds",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "ds",
+  },
+  {
     id: 9,
     course_name: "React",
     Name: "Learn React Crash Course",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla illo, nihil alias praesentium temporibus mollitia maxime? Corrupti repellendus, minima repellat ab libero quibusdam dignissimos soluta dolores. Corporis dolorem nesciunt soluta! ",
     language: "React",
-    redirect:"/react",
-    top_show: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
-    Image:
-    {img1:"../../../src/assets/Images/contact.jpg"},
-      Author:"Varsha",
+    redirect: "react",
+    top_show:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, exercitationem. ",
+    Image: { img1: "../../../src/assets/Images/contact.jpg" },
+    Author: "Varsha",
+    redirect: "react",
   },
 ];
 

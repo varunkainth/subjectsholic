@@ -7,8 +7,8 @@ const Products = [
     color: "black",
     material: "Charcoal",
     images: {
-      img1: "https://m.media-amazon.com/images/I/51EmdcEIoYL._SY450_.jpg",
-      img2: "https://m.media-amazon.com/images/I/51JgRFkpXvL._SY450_.jpg",
+      img2: "../../../src/assets/Images/c++.jpg",
+      img1: "https://m.media-amazon.com/images/I/51JgRFkpXvL._SY450_.jpg",
       img3: "https://m.media-amazon.com/images/I/51TCCrsNJwL._SY450_.jpg",
       img4: "https://m.media-amazon.com/images/I/61AAPN3aWnL._SY606_.jpg",
     },
@@ -22,7 +22,7 @@ const Products = [
     material: "paper",
     color: "white",
     images: {
-      img1: "https://m.media-amazon.com/images/I/5197qo6Q1GL._SX418_BO1,204,203,200_.jpg",
+      img1: "../../../src/assets/Images/c++.jpg",
       img2: "https://m.media-amazon.com/images/I/51YOC-rGabL.jpg",
       img3: "https://m.media-amazon.com/images/I/71QEiC6i6WL.jpg",
       img4: "https://m.media-amazon.com/images/I/5197qo6Q1GL._SX418_BO1,204,203,200_.jpg",
@@ -37,7 +37,8 @@ const Products = [
     material: "paper",
     color: "white",
     images: {
-      img1: "https://m.media-amazon.com/images/I/51PzX0ZSULL.jpg",
+      img1:"../../../src/assets/Images/python.jpg",
+      img5: "https://m.media-amazon.com/images/I/51PzX0ZSULL.jpg",
       img2: "https://m.media-amazon.com/images/I/61K0QVReUML.jpg",
       img3: "https://m.media-amazon.com/images/I/71pd1VdGjFL._AC_SY75_CR,0,0,75,75_.jpg",
       img4: "https://m.media-amazon.com/images/I/71pd1VdGjFL._AC_SY75_CR,0,0,75,75_.jpg",
@@ -52,7 +53,7 @@ const Products = [
     material: "paper",
     color: "white",
     images: {
-      img1: "https://m.media-amazon.com/images/I/61F-wMUQ5ML.jpg",
+      img1: "../../../src/assets/Images/java.jpg",
       img2: "https://m.media-amazon.com/images/I/71dD7+HV9yL.jpg",
       img3: "https://m.media-amazon.com/images/I/61F-wMUQ5ML.jpg",
       img4: "https://m.media-amazon.com/images/I/71dD7+HV9yL.jpg",
@@ -67,7 +68,7 @@ const Products = [
     material: "paper",
     color: "white",
     images: {
-      img1: "https://m.media-amazon.com/images/I/61Un90t-JxL.jpg",
+      img1: "../../../src/assets/Images/mysql.jpg",
       img2: "https://m.media-amazon.com/images/I/514znqvCRKL.jpg",
       img3: "https://m.media-amazon.com/images/I/61Un90t-JxL.jpg",
       img4: "https://m.media-amazon.com/images/I/514znqvCRKL.jpg",
@@ -82,7 +83,7 @@ const Products = [
     material: "paper",
     color: "white",
     images: {
-      img1: "https://m.media-amazon.com/images/I/71uHpFe9W4L.jpg",
+      img1: "../../../src/assets/Images/react.jpg",
       img2: "https://m.media-amazon.com/images/I/71p5VH4lUvL._AC_SX75_CR,0,0,75,75_.jpg",
       img3: "https://m.media-amazon.com/images/I/71uHpFe9W4L.jpg",
       img4: "https://m.media-amazon.com/images/I/71p5VH4lUvL._AC_SX75_CR,0,0,75,75_.jpg",
@@ -127,7 +128,7 @@ const Products = [
     material: "electronics",
     color: "black",
     images: {
-      img1: "https://m.media-amazon.com/images/I/71tGvxl3VqL._SX679_.jpg",
+      img1: "../../../src/assets/Images/monitor.jpg",
       img2: "https://m.media-amazon.com/images/I/61bk0zP76zL._SX679_.jpg",
       img3: "https://m.media-amazon.com/images/I/61SeJuNGiHL._SX679_.jpg",
       img4: "https://m.media-amazon.com/images/I/71uUA2tb2iL._SX679_.jpg",

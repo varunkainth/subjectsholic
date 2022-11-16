@@ -13,7 +13,7 @@ const Course = () => {
   };
   const navigate = useNavigate();
   const coursenavigate = () => {
-    navigate("/course/python");
+    navigate(`/course/html`);
   };
 
   return (
@@ -51,7 +51,7 @@ const Course = () => {
                   </span>
                 </p>
                 <div className="btndiv">
-                  <button  className=" buy">
+                  <button onClick={coursenavigate} className=" buy">
                     Go to Course
                   </button>
                 </div>

@@ -4,6 +4,23 @@
     align-items: center;
     justify-content: center;
 }
+.h2form{
+    display: flex;
+    justify-content: center;
+}
+.h2form h2{
+    font-size: 3rem;
+}
+.imgform{
+    width: 100%;
+}
+.img_mained{
+    display: flex;
+}
+.mained{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 form.contact_form {
     margin: 3em;
     padding: 46px;

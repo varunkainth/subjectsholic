@@ -12,6 +12,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import Cart from "./components/Cart";
 import Loading from "./components/Pages/Loading";
 import Courses from "./components/Json/Course";
+import Quiz from "./components/Pages/Quiz";
 // import Products from "./components/Json/products_list";
 
 const App = () => {
@@ -83,7 +84,7 @@ const App = () => {
           <Route path="/loading" element={<Loading />} />
           {
             coursedata.map((data)=><>
-            <Route path={`/course/${data.redirect}`}/>
+            <Route path={`/course/${data.redirect}`} element={<Quiz/> }/>
             </>)
           }
         </Routes>
