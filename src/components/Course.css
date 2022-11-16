@@ -1,0 +1,52 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(4,500px); */
+}
+.hello {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.categoryd {
+  cursor: pointer;
+  margin: 7px;
+
+  background-color: var(--font-bg);
+  border-radius: 10px;
+  transition: all 800ms ease-in-out;
+}
+.img_main {
+  display: flex;
+  justify-content: center;
+}
+.h2_heading {
+  position: relative;
+  left: 16px;
+  top: 10px;
+}
+.btndiv{
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+
+}
+.buy{
+  padding: 7px 14px;
+  margin-bottom: 10px;
+}
+.heading {
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+  position: static;
+}
+#notshow {
+  display: none;
+  color: darkred;
+}
+.colorspan {
+  color: darkred;
+}
+.paracourse {
+  margin-top: 10px;
+  padding: 10px;
+}
